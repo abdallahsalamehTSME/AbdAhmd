@@ -1,12 +1,16 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import Container from './components/Container.vue'
 </script>
 
 <template>
-  <RouterView />
+  <div class="container">
+    <Container/>
+
+  </div>
 </template>
 
 <style scoped>
-
+.container{
+}
 </style>

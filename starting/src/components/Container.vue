@@ -5,11 +5,13 @@ defineProps<{
 </script>
 
 <template>
-  <div class="greetings">
+  <div class="container">
     hello
   </div>
 </template>
 
 <style scoped>
-
+.container{
+  height: 100vh;
+}
 </style>
