@@ -1,17 +1,16 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="container">
-    hello
+    <slot></slot>
   </div>
 </template>
 
 <style scoped>
-.container{
+.container {
   height: 100vh;
+  padding: 2% 10%;
+  display: flex;
+  justify-content: space-between;
 }
 </style>
